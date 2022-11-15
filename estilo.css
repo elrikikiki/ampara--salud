@@ -42,3 +42,9 @@
   background-position: center;
   background-size: cover;
 }
+.zoomImg {
+  transition: transform 0.3s;
+}
+.zoomImg:hover {
+  transform: scale(1.1);
+}
