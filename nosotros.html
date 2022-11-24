@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ampara Salud</title>
+    <title>Ampara Salud - Nosotros</title>
     <link rel="stylesheet" href="estilo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="/assets/faviconAmpara.png" type="image/x-icon">
@@ -17,8 +17,14 @@
   <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <style>
         @media (min-width: 200px){
+          .paddin-top-banner {
+            padding-top: 140px;
+          }
         }
         @media (min-width: 768px){
+          .paddin-top-banner {
+            padding-top: 40px;
+          }
           }
         @media (min-width: 992px){
           /* #m-left-navbar {
@@ -32,6 +38,9 @@
           }
           .marginImg {
             margin-bottom: 39px;
+          }
+          .paddin-top-banner {
+            padding-top: 0px;
           }
         }
         @media (min-width: 1200px){
@@ -95,10 +104,21 @@
     <!-- BANNER -->
        <!-- ENCABEZADO -->
     <header>
-      <div class="position-relative imgBannerAs1 p-3 p-md-5 text-center" >
+        <div class="container-fluid bg-warning text-white pt-4 pb-4">
+            <div class="container fontFamily">
+                <div class="row">
+                    <h1 class="fw-bold">NOSOTROS</h1>
+                </div>
+            </div>
+        </div>
+      <div class="position-relative imgBannerNosotros p-3 p-md-5" >
         <div class="col-md-9 p-lg-5 mx-auto my-5 fontFamily" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
-            <h1 class="display-5 fw-bold text-white copabGrande pt-5">PLAN AS1</h1>
-            <p class="lead fw-bold text-white">Plan Full de Obra Social, sin pagos de coseguros y libre elección de prestadores.</p>
+            <div class="col-sm-4 col-md-8 col-lg-5">
+                <h1 class="display-5 fw-bold text-white bg-warning rounded p-3">¿Quiénes somos?</h1>
+                <p class=" h4 bg-light rounded p-3">El principal objetivo de Ampara Salud es asegurarle la tranquilidad y bienestar a usted y a su familia. 
+                    Nuestro mayor beneficio es poder brindarle servicios que le garanticen una mejor calidad de vida para usted y los suyos.</p>
+            </div>
+            
             <div class="d-grid gap-2 d-md-block">
 
             </div>
@@ -108,22 +128,73 @@
     <!-- FIN DE BANNER -->
     
     <!-- RED DE PRESTADORES -->
-    <div class="container-fluid  bg-light">
+    <!-- mision -->
+    <div class="container-fluid bg-light" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
       <div class="container">
-        <div class="row">
-          <h3 class=" fontFamily colorWarning pt-4">RED DE PRESTADORES</h3>
+        <div class="row text-center" >
+          <h2 class=" fontFamily fw-bold colorWarning pt-3 pb-3">MISIÓN</h2>
+        </div>
+        <div class="row mt-2 pb-4">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="h5 bg-warning text-white p-4 rounded">“Brindamos planes de salud de excelencia para los trabajadores y su grupo familiar”</p>
+            </div>
+            <div class="col-md-4"></div>
         </div>
       </div>
     </div>
-    
+    <!-- vision -->
+    <div class="container-fluid" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+        <div class="container">
+          <div class="row text-center">
+            <h2 class="fontFamily fw-bold colorVerde pt-3 pb-3">VISIÓN</h2>
+          </div>
+          <div class="row mt-2 mb-4">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="h5 bg-green text-white p-4 rounded">“Brindamos planes de salud de excelencia para los trabajadores y su grupo familiar”</p>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+      </div>
+      <!-- VALORES -->
+      <div class="container-fluid bg-light" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
+        <div class="container">
+          <div class="row text-center">
+            <h2 class=" fontFamily colorWarning fw-bold pt-3 pb-3">VALORES</h2>
+          </div>
+          <div class="row mt-2 pb-4">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="h5 bg-warning text-white p-4 rounded">“Brindamos planes de salud de excelencia para los trabajadores y su grupo familiar”</p>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+      </div>
+
     <!-- FIN DE RED DE PRESTADORES -->
 
     <!-- BANNER CONTACTANOS -->
-    <div class="container-fluid">
+    <div class="container-fluid bg-nosotros " >
       <div class="container">
-        <div class="row">
-          <h3></h3>
-        </div>
+        <div class="position-relative p-md-5 text-center">
+          <div class="col-md-9 p-lg-5 mx-auto my-5 fontFamily" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+              <h1 class="display-5 fw-bold text-white paddin-top-banner">CONTAMOS CON LOS MEJORES PROFESIONALES</h1>
+              <p class="h3 fw-normal text-white ">Enterate sobre los planes que ofrecemos.</p>
+              <div class="d-grid gap-2 d-md-block">
+                <!-- Botones -->
+
+                <a href="copab.html" data-aos="zoom-in" data-aos-duration="3000" class=" text-white sinSubrayado">
+                <button type="button" class="btn btn-secondary fw-normal mt-3 text-white"
+                style="--bs-btn-padding-y: .50rem; --bs-btn-padding-x: 3rem; --bs-btn-font-size: 1.2rem;">
+                CONTACTAR
+              </button>
+              </a>
+              </div>
+          </div>
+          </div>
       </div>
     </div>
     <!-- FIN BANNER CONTACTANOS -->
