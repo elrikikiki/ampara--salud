@@ -47,7 +47,7 @@
             margin-right: 47px;
           } */
           .marginNav {
-            margin-right: 38px;
+            margin-right: 100px;
           }
           #imgIndexHeight {
             height: 600px;
@@ -67,56 +67,36 @@
         }
       </style>
 </head>
-
   <body>
-    <!-- NAVBAR -->
-    <nav id="mobile-back" class="bg-white navbar fontFamily navbar-expand-lg sticky-top mt-2 mb-3">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/logo.png" class="rounded" alt="Logotipo de ampara-salud" width="100%" height="58" data-aos="flip-left"
-          data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="true">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between fw-bold mt-2 " id="navbarNav">
-          <div class="nav-item col-sm-5 mb-4"></div>
+   <!-- NAVBAR -->
+   <nav id="mobile-back" class="bg-white navbar fontFamily navbar-expand-lg sticky-top mt-2 mb-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logo.png" class="rounded" alt="Logotipo de ampara-salud" width="100%" height="58" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="true">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between fw-bold mt-2 " id="navbarNav">
+        <div class="nav-item col-sm-5 mb-4"></div>
 
-          <div class="nav-item dropdown mb-4">
-              <a class="nav-link dropdown-toggle mouseHeader marginNav"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              OBRA SOCIAL
-              </a>
-              <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="as1.html">AS1</a></li>
-                  <li><a class="dropdown-item" href="as2.html">AS2</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="as3.html">AS3</a></li>
-              </ul>
+        <div class="nav-item col-sm-1 mb-4 text-center  mouseHeader ">
+          <a href="planes.html" class="sinSubrayado text-black "> PLANES</a>  
           </div>
-
-          <div class="nav-item dropdown mb-4">
-              <a class="nav-link dropdown-toggle mouseHeader marginNav"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              PRE-PAGO
-              </a>
-              <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="as4.html">AS4</a></li>
-                  <li><a class="dropdown-item" href="as5.html">AS5</a></li>
-              </ul>
-          </div>
-          <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-          <a href="nosotros.html" class="sinSubrayado text-black"> NOSOTROS</a>  
-          </div>
-          <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-            <a href="oficinas.html" class="sinSubrayado text-black"> OFICINAS</a>  
-          </div>
-          <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-            <a href="contacto.html" class="sinSubrayado text-black"> CONTACTO</a>  
-          </div>
+        <div class="nav-item col-sm-1 mb-4 text-center mouseHeader">
+        <a href="nosotros.html" class="sinSubrayado text-black"> NOSOTROS</a>  
+        </div>
+        <div class="nav-item col-sm-1 mb-4 text-center mouseHeader">
+          <a href="oficinas.html" class="sinSubrayado text-black"> OFICINAS</a>  
+        </div>
+        <div class="nav-item col-sm-1 mb-4 text-center marginNav mouseHeader">
+          <a href="contacto.html" class="sinSubrayado text-black"> CONTACTO</a>  
         </div>
       </div>
-    </nav>
-  <!-- NAVBAR -->
-    
+    </div>
+  </nav>
+<!-- NAVBAR -->
     <main>
         <!-- IMAGEN DE INICIO -->
         <section>
@@ -201,7 +181,10 @@
                   <h3 class="text-center text-white fw-bold">PLAN AS1</h3>
                   <h5 class="text-white marginImg">Plan Full de Obra Social<!--  sin pagos de coseguros y libre elección de prestadores. --></h5>
                   <img width="100%" height="200px" class="rounded border border-5 border-white zoomImg" src="https://media.istockphoto.com/id/1339226443/es/foto/la-pareja-usa-un-dispositivo-de-tel%C3%A9fono-inteligente-mientras-est%C3%A1-sentada-en-un-sof%C3%A1-en-el.jpg?s=612x612&w=0&k=20&c=qjWr8z3ZtJspxKqRtBUxkQzQkqXxIlOP5IY-m6yKa3w=" alt="">
-                  <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  <a href="planes.html">
+                    <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  </a>
+                  
                 </div>
   
                 <div class="col-md-4 mb-3 pt-4 pb-4 bg-warning-claro " data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
@@ -209,7 +192,9 @@
                   <h5 class="text-white marginImg">Plan para Monotributistas</h5>
                   <img width="100%" height="200px" class="rounded border border-5 border-white zoomImg" 
                   src="https://www.clarin.com/img/2021/11/17/0T0_qdwPh_1200x630__1.jpg" alt="">
-                  <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  <a href="planes.html">
+                    <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  </a>
                 </div>
   
                 <div class="col-md-4 mb-3 pt-4 pb-4 bg-warning-clarito " data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
@@ -217,7 +202,9 @@
                   <h5 class="text-white marginImg" id="">Con tu Aporte y Nada Más</h5>
                   <img width="100%" height="200px" class="rounded border border-5 border-white zoomImg"
                    src="https://media.istockphoto.com/id/1147872561/es/foto/joven-pareja-con-psic%C3%B3logo-terapeuta-de-terapia-familiar-cumpliendo-con-la-forma-m%C3%A9dica.jpg?s=612x612&w=0&k=20&c=bphGjmEzpAK4Q3C_OAEbeIozin-2cPCEtDTZMvO1GnE=" alt="">
-                  <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                   <a href="planes.html">
+                    <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -237,14 +224,18 @@
                   <h3 class="text-center fw-bold">PLAN AS4</h3>
                   <h5 class=" marginImg">Plan Full</h5>
                   <img width="100%" height="200px" class="rounded border border-5 border-white zoomImg" src="https://images.unsplash.com/photo-1533228876829-65c94e7b5025?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
-                  <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  <a href="planes.html">
+                    <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  </a>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-4 mb-3 pt-4 pb-4 bg-warning-claro  " data-aos="fade-right" data-aos-duration="2000" data-aos-once="true">
                   <h3 class="text-center  fw-bold">PLAN AS5</h3>
                   <h5 class=" marginImg">Plan de Medicina Privada</h5>
                   <img width="100%" height="200px" class="rounded border border-5 border-white zoomImg"  src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" alt="">
-                  <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  <a href="planes.html">
+                    <button class="btn btn-dark mt-3  text-white">Ver más</button>
+                  </a>
                 </div>
 
               </div>
@@ -273,9 +264,7 @@
             </div>
         </div>
       </div>
-      <!-- FINDE AFILIATE -->
-          
-
+      <!-- FIN DE AFILIATE -->
      <!-- FOOTER -->
         <!-- AÑADIR FORMULARIO SIEMPRE -->
         <div class="container-fluid bg-white">
@@ -286,19 +275,10 @@
                 <small class="d-block mb-3 text-muted">&copy; 2022</small>
               </div>
               <div class="col-6 col-md">
-                <h5 class="">Obra social</h5>
+                <h5 class="">Planes</h5>
                 <ul class="list-unstyled text-small">
                   <!-- Agrega un link que te lleve directo a la página nosotros, sección quiénes somos o nuestro equipo, como la landing page -->
-                  <li><a class="link-secondary" href="as1.html">AS1</a></li>
-                  <li><a class="link-secondary" href="as2.html">AS2</a></li>
-                  <li><a class="link-secondary" href="as3.html">AS3</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md">
-                <h5 class="">Pre-pago</h5>
-                <ul class="list-unstyled text-small">
-                <li><a class="link-secondary" href="as4.html">AS4</a></li>
-                <li><a class="link-secondary" href="as5.html">AS5</a></li>
+                  <li><a class="link-secondary" href="planes.html">Red de prestadores</a></li>
                 </ul>
               </div>
               <div class="col-6 col-md">

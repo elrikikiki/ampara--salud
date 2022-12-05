@@ -19,6 +19,9 @@
         @media (min-width: 200px){
         }
         @media (min-width: 768px){
+          .mt-plan {
+            margin-top: 100px;
+          }
           }
         @media (min-width: 992px){
           /* #m-left-navbar {
@@ -33,6 +36,9 @@
           .marginImg {
             margin-bottom: 39px;
           }
+          .mt-plan {
+            margin-top: 80px;
+          }
         }
         @media (min-width: 1200px){
           
@@ -43,62 +49,43 @@
       </style>
 </head>
 
-  <body>
-    <!-- NAVBAR -->
-    <nav id="mobile-back" class="bg-white navbar fontFamily navbar-expand-lg sticky-top mt-2 mb-3">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="./assets/logo.png" class="rounded" alt="Logotipo de CEEICba" width="100%" height="58" data-aos="flip-left"
-            data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="true">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-between fw-bold mt-2 " id="navbarNav">
-            <div class="nav-item col-sm-5 mb-4"></div>
-
-            <div class="nav-item dropdown mb-4">
-                <a class="nav-link dropdown-toggle mouseHeader marginNav"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                OBRA SOCIAL
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="as1.html">AS1</a></li>
-                    <li><a class="dropdown-item" href="as2.html">AS2</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="as3.html">AS3</a></li>
-                </ul>
-            </div>
-
-            <div class="nav-item dropdown mb-4">
-                <a class="nav-link dropdown-toggle mouseHeader marginNav"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                PRE-PAGO
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="as4.html">AS4</a></li>
-                    <li><a class="dropdown-item" href="as5.html">AS5</a></li>
-                </ul>
-            </div>
-            <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-            <a href="nosotros.html" class="sinSubrayado text-black"> NOSOTROS</a>  
-            </div>
-            <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-              <a href="oficinas.html" class="sinSubrayado text-black"> OFICINAS</a>  
-            </div>
-            <div class="nav-item col-sm-1 mb-4 marginNav mouseHeader">
-              <a href="contacto.html" class="sinSubrayado text-black"> CONTACTO</a>  
-            </div>
+  <body class="fontFamily">
+   <!-- NAVBAR -->
+   <nav id="mobile-back" class="bg-white navbar fontFamily navbar-expand-lg sticky-top mt-2 mb-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logo.png" class="rounded" alt="Logotipo de ampara-salud" width="100%" height="58" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic" data-aos-duration="3000" data-aos-once="true">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between fw-bold mt-2" id="navbarNav">
+        <div class="nav-item col-sm-5 mb-4"></div>
+        <div class="nav-item col-sm-1 mb-4 text-center  mouseHeader ">
+          <a href="planes.html" class="sinSubrayado text-black "> PLANES</a>  
           </div>
+        <div class="nav-item col-sm-1 mb-4 text-center mouseHeader">
+        <a href="nosotros.html" class="sinSubrayado text-black"> NOSOTROS</a>  
         </div>
-      </nav>
-    <!-- NAVBAR -->
+        <div class="nav-item col-sm-1 mb-4 text-center mouseHeader">
+          <a href="oficinas.html" class="sinSubrayado text-black"> OFICINAS</a>  
+        </div>
+        <div class="nav-item col-sm-1 mb-4 text-center marginNav mouseHeader">
+          <a href="contacto.html" class="sinSubrayado text-black"> CONTACTO</a>  
+        </div>
+      </div>
+    </div>
+  </nav>
+<!-- NAVBAR -->
 
     <!-- BANNER -->
        <!-- ENCABEZADO -->
     <header>
       <div class="position-relative imgBannerAs1 p-3 p-md-5 text-center" >
         <div class="col-md-9 p-lg-5 mx-auto my-5 fontFamily" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true">
-            <h1 class="display-5 fw-bold text-white copabGrande pt-5">PLAN AS1</h1>
-            <p class="lead fw-bold text-white">Plan Full de Obra Social, sin pagos de coseguros y libre elección de prestadores.</p>
+            <h1 class="display-5 fw-bold text-white copabGrande pt-5">ELEGÍ TU PLAN</h1>
+
             <div class="d-grid gap-2 d-md-block">
 
             </div>
@@ -109,15 +96,62 @@
     
     <!-- RED DE PRESTADORES -->
     <div class="container-fluid bg-light">
-      <div class="container">
+      <div class="container ">
         <div class="row">
           <h3 class=" fontFamily colorVerde fw-bold pt-4">RED DE PRESTADORES</h3>
+          <p class="text-secondary fw-bold">Encontrá todos nuestros planes</p>
+        </div>
+      </div>
+    </div>
+      
+    
+    <!-- FIN DE RED DE PRESTADORES -->
+
+    <!-- tablita -->
+    <div class="container-fluid bg-light">
+      <div class="container pb-5">
+        <div class="row ">
+          <div class="col-sm-3 col-md-5 col-lg-3 bg-green p-5">
+            <h3 class="text-white fw-bold mt-plan">
+              PLANES AS1, AS2, AS3, AS4 Y AS5
+            </h3><p class="text-center mt-4">
+              <a href="https://drive.google.com/file/d/1UTftNJVnyfDI-wbNZhQOT8zsMCZfp5nO/view?usp=sharing">
+              <button class="btn btn-warning fw-bold ps-4 pe-4 text-center">  
+                  <img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/833px-PDF_file_icon.svg.png" width="35px" height="35px" alt="">
+                </button>
+              </a>
+            </p>
+            
+          </div>
+  
+          <div class="col-sm-3 col-md-5 col-lg-4 border bg-white p-5">
+            <p class="colorVerde fw-bold">
+              PLAN AS1: Plan Full de Obra Social
+            </p>
+            <p class="colorVerde fw-bold">
+              PLAN AS2: Plan para Monotributistas
+            </p>
+            <p class="colorVerde fw-bold">
+              PLAN AS3: con tu aporte y nada más
+            </p>
+            <p class="colorVerde fw-bold">
+              PLAN AS4: Plan Full, sin pagos de coseguros y libre elección de prestadores.
+            </p>
+            <p class="colorVerde fw-bold">
+              PLAN AS5: Plan medicina privada
+            </p>
+            <button class="btn btn-warning mt-3"> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="35" fill="currentColor" class="p-1 bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </button>
+          <!-- <a href="https://drive.google.com/file/d/1UTftNJVnyfDI-wbNZhQOT8zsMCZfp5nO/view?usp=sharing">
+          </a> -->
         </div>
       </div>
     </div>
     
-    <!-- FIN DE RED DE PRESTADORES -->
-
+    <!-- tablita -->
     <!-- BANNER CONTACTANOS -->
     <div class="container-fluid">
       <div class="container">
